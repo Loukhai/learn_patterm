@@ -14,7 +14,8 @@ Iterator.prototype = {
     return this.index < this.items.length;
   },
   next: function () {
-    return this.items[this.index++];
+    return this.items[this.index++]; //forward
+    // return this.items[this.index--]; //backward
   },
 };
 
